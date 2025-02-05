@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>SpecXSmart | Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap5.3.2.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/shivani-style.css">
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light main_header_cls" >
+    <!-- Left navbar links -->
+    <ul class="navbar-nav header_left_col">
+      <!-- <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li> -->
+      <li class="">
+        <a class="">Your Prescriptions</a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto header_right_col">
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown" style="display: none;">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-comments"></i>
+          <span class="badge badge-danger navbar-badge">3</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Brad Diesel
+                  <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">Call me whenever you can...</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  John Pierce
+                  <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">I got your message bro</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Nora Silvester
+                  <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">The subject goes here</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+        </div>
+      </li>
+
+      <li class="profile_area">
+        <img src="dist/images/profile-img.png" class="profile_img" />
+        <h3>Your Personal <br>
+        Xpert Advisor </h3>
+        <ul class="user_info">
+          <li>Name: <span>Jenny</span></li>
+          <li>Email ID: <span>jenny@gmail.com</span></li>
+          <li>Tel: <span>+91 2365987412</span></li>
+        </ul>
+      </li>
+
+      <!-- Notifications Dropdown Menu -->
+      <li class=" dropdown avatar_area">
+        <a class="" data-toggle="dropdown" href="#">
+          <img src="dist/images/man-user-avatar.png" class="avatar_img" />
+          <p>Johan Deo</p>
+          <img src="dist/images/down-arrow.svg" class="down_arrow" />
+          <!-- <i class="far fa-bell"></i>
+          <span class="badge badge-warning navbar-badge">15</span> -->
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header">15 Notifications</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-envelope mr-2"></i> 4 new messages
+            <span class="float-right text-muted text-sm">3 mins</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i> 8 friend requests
+            <span class="float-right text-muted text-sm">12 hours</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-file mr-2"></i> 3 new reports
+            <span class="float-right text-muted text-sm">2 days</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+        </div>
+      </li>
+
+      <li class="nav-item" style="display: none;">
+        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+          <i class="fas fa-th-large"></i>
+          <p>Johan Deo</p>
+        </a>
+      </li>
+    </ul>
+    
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-light-primary ">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+      <img src="dist/images/logo.png" alt="AdminLTE Logo" class="" />
+      <!-- <span class="brand-text font-weight-light">AdminLTE 3</span> -->
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar Menu -->
+      <nav class="">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              <img src="dist/images/menu-icons/Your-Prescriptions.svg">
+              <p> Dashboard </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="your-prescriptions.html" class="nav-link active">
+              <img src="dist/images/menu-icons/Your-Prescriptions.svg">
+              <p> Your Prescriptions </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="order-history.html" class="nav-link">
+              <img src="dist/images/menu-icons/Order-History.svg">
+              <p> Order History </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="your-invoices.html" class="nav-link">
+              <img src="dist/images/menu-icons/Your-invoices.svg">
+              <p> Your Invoices </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="your-receipt.html" class="nav-link">
+              <img src="dist/images/menu-icons/Your-Receipt.svg">
+              <p> Your Receipt </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="next-eye-exam.html" class="nav-link">
+              <img src="dist/images/menu-icons/Next-Eye-Exam.svg">
+              <p> Next Eye Exam </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="favorite-frames.html" class="nav-link">
+              <img src="dist/images/menu-icons/Favorite-Frames.svg">
+              <p> Favorite Frames </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="message-alert.html" class="nav-link">
+              <img src="dist/images/menu-icons/Message-Alert.svg">
+              <p> Message Alert </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="xbucks-rewards.html" class="nav-link">
+              <img src="dist/images/menu-icons/Xbucks-Rewards.svg">
+              <p> Xbucks Rewards </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="affiliate-program.html" class="nav-link">
+              <img src="dist/images/menu-icons/Affiliate-Program.svg">
+              <p> Affiliate Program </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="account-details.html" class="nav-link">
+              <img src="dist/images/menu-icons/Account-Details.svg">
+              <p> Account Details </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="store-locators.html" class="nav-link">
+              <img src="dist/images/menu-icons/Store-Locators.svg">
+              <p> Store Locators </p>
+            </a>
+          </li>
+
+          <li class="nav-item sidebar_logout_btn">
+            <a href="" class="">
+              Logout
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Main content -->
+    <div class="content">
+      <div class="container-fluid">
+        <div class="common_table_main">
+          <table class="common_table table">
+            <thead>
+              <tr>
+                <th>Prescriptions ID</th>
+                <th>Date</th>
+                <th>Prescription Type</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  <td >00001</td>
+                  <td>04 Sep 2025</td>
+                  <td>Bifocal</td>
+                  <td><a class="view_morebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></td>
+              </tr>
+              <tr>
+                  <td>00002</td>
+                  <td>04 Sep 2025</td>
+                  <td>Bifocal</td>
+                  <td><a class="view_morebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></td>
+              </tr>
+              <tr>
+                  <td>00003</td>
+                  <td>04 Sep 2025</td>
+                  <td>Bifocal</td>
+                  <td><a class="view_morebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></td>
+              </tr>
+              <tr>
+                  <td>00003</td>
+                  <td>04 Sep 2025</td>
+                  <td>Bifocal</td>
+                  <td><a class="view_morebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></td>
+              </tr>
+              <tr>
+                  <td >00005</td>
+                  <td >04 Sep 2025</td>
+                  <td >Bifocal</td>
+                  <td ><a class="view_morebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></td>
+              </tr>
+              <tr>
+                  <td >00006</td>
+                  <td >04 Sep 2025</td>
+                  <td >Bifocal</td>
+                  <td ><a class="view_morebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></td>
+              </tr>
+              <tr>
+                  <td >00007</td>
+                  <td >04 Sep 2025</td>
+                  <td >Bifocal</td>
+                  <td ><a class="view_morebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></td>
+              </tr>
+              <tr>
+                  <td >00008</td>
+                  <td >04 Sep 2025</td>
+                  <td >Bifocal</td>
+                  <td ><a class="view_morebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></td>
+              </tr>
+              <tr>
+                  <td >00009</td>
+                  <td >04 Sep 2025</td>
+                  <td >Bifocal</td>
+                  <td ><a class="view_morebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></td>
+              </tr>
+              <tr>
+                  <td >00009</td>
+                  <td >04 Sep 2025</td>
+                  <td >Bifocal</td>
+                  <td ><a class="view_morebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></td>
+              </tr>
+              <tr>
+                  <td >00009</td>
+                  <td >04 Sep 2025</td>
+                  <td >Bifocal</td>
+                  <td ><a class="view_morebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></td>
+              </tr>
+              <tr>
+                  <td >00009</td>
+                  <td >04 Sep 2025</td>
+                  <td >Bifocal</td>
+                  <td ><a class="view_morebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></td>
+              </tr>
+              <tr>
+                  <td >00009</td>
+                  <td >04 Sep 2025</td>
+                  <td >Bifocal</td>
+                  <td ><a class="view_morebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Prescriptions  Detail</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="popup_details">
+                    <div class="prescriptions_details">
+                      <h5>Prescriptions  ID : <span>001</span></h5>
+                      <h5>Type : <span>Eyeglasses</span></h5>
+                    </div>
+                    <div class="prescriptions_details">
+                      <h5>Prescriptions Date : <span>04 Sep 2025</span></h5>
+                      <h5>Lens Features : <span>Transitions Xtractive(Grey)</span></h5>
+                    </div>
+                    <div class="prescriptions_details">
+                      <h5>Prescriptions Type : <span>Bifocal</span></h5>
+                      <h5>Lens Coating : <span>Anti-Reflective (Ultra)</span></h5>
+                    </div>
+                  </div>
+                  <div class="prescriptions_table">
+                    <table class="prescription_t1 table">
+                      <thead>
+                        <tr>
+                          <th>EYE</th>
+                          <th>SPH</th>
+                          <th>CYL</th>
+                          <th>AXIS</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>R</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>L</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                      </tbody>  
+                    </table>
+                    <table class="prescription_t2 table">
+                      <thead>
+                        <tr>
+                          <th>ADD</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>PD</td>
+                          <td></td>  
+                        </tr>
+                        <tr>
+                          <td>SEG</td>
+                          <td></td> 
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="custom_pagination">
+            <span><a href="#"><img src="dist/images/doublearrowleft.png"></a></span>
+            <ul>
+              <h6 class="back_btn">Back</h6>
+              <li class="arrow_icon"><a href="#"><img src="dist/images/leftarrow.png"></a></li>
+              <li class="active" ><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li href="#" class="arrow_icon"><a href="#"><img src="dist/images/rightarrow.png"></a></li>
+              <h6 class="next_btn">Next</h6>
+            </ul>
+            <span><a href="#"><img src="dist/images/doublearrowright.png"></a></span>
+          </div>
+        </div><!-- your-prescriptions -->
+         
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+
+</div>
+<!-- ./wrapper -->
+
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap 5 -->
+<script src="plugins/bootstrap/js/bootstrap5.3.2.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<script src="dist/js/adminlte.js"></script>
+
+</body>
+</html>
